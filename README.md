@@ -4,7 +4,7 @@ Freecell solitaire card game for web browsers
 
 **************************************************************************************************
 # Try Freecell-JS
-[Play FreecellJS Solitaire Online!](https://gitbrent.github.io/FreecellJS/demo/FreecellJS.html)  
+[Play FreecellJS Solitaire Online!]([https://gitbrent.github.io/FreecellJS/demo/FreecellJS.html](https://kaloodinaz.github.io/freecell-solitaire/))  
 
 ![FreecellJS Solitaire Card Game Screencap](https://gitbrent.github.io/FreecellJS/img/freecell-js-game.png)
 
@@ -64,7 +64,7 @@ case demonstrating the issue, that'd be really helpful.
 
 [MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015-2016 Brent Ely, [https://github.com/GitBrent/FreecellJS](https://github.com/GitBrent/FreecellJS)
+Copyright (c) 2015-2016 Brent Ely, [https://github.com/GitBrent/FreecellJS](https://github.com/kaloodinaz/freecell-solitaire)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
