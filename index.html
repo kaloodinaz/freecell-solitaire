@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -655,6 +655,11 @@
 	</script>
 </head>
 <body>
+	<script>
+    if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
+    .then(registration => {console.log('Service Worker registered successfully:', registration);})
+    .catch(error => {console.log('Error in Service Worker registration:', error);});});}
+    </script>
 	<div id="dialogStart" style="display:none">
 		<div class="title">Freecell Solitaire</div>
 		<div class="hBtnTab">
