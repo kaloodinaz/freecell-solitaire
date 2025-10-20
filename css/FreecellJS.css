@@ -42,9 +42,9 @@ button.coolBtn.small{height:auto;padding:10px;font-size:1.2em}
 .hBtnTab > div:nth-child(1) button{background:linear-gradient(to bottom,#03BBE5 0%,#0288D4 100%)}
 .hBtnTab > div:nth-child(2) button{background:linear-gradient(to bottom,#15D418 0%,#17BC14 100%);border:3px solid #e7e7e7;font-size:3em;letter-spacing:.1em}
 .hBtnTab > div:nth-child(3) button{background:linear-gradient(to bottom,#921AD3 0%,#8415C4 100%)}
-#dialogStart{text-align:center}
+#dialogStart{background-color: #3f5909;text-align:center}
 #dialogStart .title{font-family:Playfair;font-size:3.5em;color:#fff;letter-spacing:.03em;white-space:nowrap;text-shadow:5px 5px 10px #000000b3}
-#dialogOptions{font-family:'Open Sans Light';color:#fff;padding:20px}
+#dialogOptions{font-family:'Open Sans Light';background-color: #3f5909;color:#fff;padding:20px}
 #dialogOptions button.coolBtn{background:linear-gradient(to bottom,#03BBE5 0%,#0288D4 100%)}
 #dialogOptions div.label{font-size:1.5em;color:#fff;text-align:left;margin-top:20px}
 #dialogOptions div.label:first-child{margin-top:0}
