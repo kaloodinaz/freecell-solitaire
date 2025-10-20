@@ -54,7 +54,7 @@ button.coolBtn.small{height:auto;padding:10px;font-size:1.2em}
 .dialogCool{background-color:#00f700;background:repeating-linear-gradient(45deg,#2A6C15 0px,#2A6C15 20px,#3A7C25 20px,#3A7C25 40px);border-radius:30px;border-width:5px}
 .dialogCool .menuTitle{text-align:center;font-family:Calibri;font-size:48px;color:#fff;text-shadow:0 1px 0 #5b8a3c}
 .bigText{font-size:10em;text-align:center;color:#BA01FF;font-family:Roboto;font-weight:400;animation:neonPurple 1.5s ease-in-out infinite alternate}
-.bigBtnBar{padding:10px;text-align:center}
+.bigBtnBar{padding:10px;z-index: 1000;background-color: #232323;border-radius: 25px;position: sticky;text-align:center}
 .bigBtnBar button{width:85%;margin:30px 0;font-size:1.5em;color:#fff;letter-spacing:.1em;box-shadow:5px 5px 15px #00000080;background-color:#77b55a;background:linear-gradient(to bottom,#77b55a 5%,#72b352 100%);border-radius:10px;border:1px solid #4b8f29;padding:20px 10px;text-shadow:0 1px 0 #5b8a3c}
 .bigBtnBar button:hover{transform:scale(1.05);transition:.25s ease-in}
 .bigBtnBar button:nth-child(1){background:linear-gradient(to bottom,#D21615 0%,#BC1317 100%);border-color:#BC1317}
