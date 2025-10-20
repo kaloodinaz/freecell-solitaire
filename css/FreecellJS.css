@@ -1,13 +1,3 @@
-/*
- * name: FreecellJS.css
- * file: css/FreecellJS.css
- *
- * Copyright (c) 2015-2016. Brent Ely;
- * https://github.com/gitbrent/
- *
- * Licences: MIT
- * http://www.opensource.org/licenses/mit-license.php
- */
 
 @font-face { font-family: 'Playfair';        src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'); }
 @font-face { font-family: 'Open Sans Light'; src: url('../fonts/OpenSans-Light.ttf') format('truetype'); }
@@ -172,7 +162,7 @@ button.coolBtn.small {
 .dialogCool {
     background-color: #00f700;
     background: repeating-linear-gradient( 45deg, #2A6C15 0px, #2A6C15 20px, #3A7C25 20px, #3A7C25 40px );
-    border-radius: 30px; border-width: 15px;
+    border-radius: 30px; border-width: 5px;
 }
 .dialogCool .menuTitle {
     text-align: center;
@@ -227,7 +217,7 @@ button.coolBtn.small {
 #topArea > div#gameTitle {
     position: relative;
     padding: 5px 10px;
-    font-family: Suit; font-size: 2.2em; font-weight: 100;
+    font-family: Suit; font-size: 1.5em; font-weight: 100;
     text-shadow: 2px 2px 3px #333;
     color: #88dd88;
     vertical-align: top;
@@ -409,6 +399,7 @@ h1, .card, div#gameTitle {
     .card .corner.bottom span { margin-bottom: 3em; }
     .card .corner.top    span.number,
     .card .corner.bottom span.number { font-size: 2em; }
+    #dialogStart .title {font-size: 2em;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -421,17 +412,19 @@ h1, .card, div#gameTitle {
     .card .corner.bottom span { margin-bottom: 3em; }
     .card .corner.top    span.number,
     .card .corner.bottom span.number { font-size: 2em; }
+	#dialogStart .title {font-size: 2em;}
 }
 
 @media only screen and (max-width: 550px) {
     #topArea > #cardFoun .slot h1 { line-height:70px; }
-    .card, .slot { width:50px; height:70px; font-size:4px; }
+    .card, .slot { width:50px; height:70px; font-size:4px;#dialogStart .title {font-size: 2em;} }
 }
 
 @media only screen and (max-width: 425px) {
     #topArea > #cardFoun .slot h1 { line-height:70px; }
-    .card, .slot { width:50px; height:70px; font-size:4px; }
+    .card, .slot { width:50px; height:70px; font-size:4px;#dialogStart .title {font-size: 2em;} }
 }
 
 @media only screen and (max-width: 375px) {
+	#dialogStart .title {font-size: 1em;}
 }
