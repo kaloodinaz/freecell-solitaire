@@ -61,7 +61,7 @@ button.coolBtn.small{height:auto;padding:10px;font-size:1.2em}
 .bigBtnBar button:nth-child(2){background:linear-gradient(to bottom,#03BBE5 0%,#0288D4 100%);border-color:#0288D4}
 .bigBtnBar button:nth-child(3){background:linear-gradient(to bottom,#15D418 0%,#17BC14 100%);border-color:#17BC14}
 .bigBtnBar button:nth-child(4){background:linear-gradient(to bottom,#921AD3 0%,#8415C4 100%);border-color:#8415C4}
-#playArea{padding:30px 60px}
+#playArea{padding:10px 20px}
 #playArea > div{width:100%}
 #topArea{display:table;margin-bottom:2em}
 #topArea > div{display:table-cell;vertical-align:top;text-align:center}
