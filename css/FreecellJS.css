@@ -130,7 +130,7 @@ button.coolBtn.small {
 
 #dialogStart { text-align: center; }
 #dialogStart .title {
-    font-family: Playfair; font-size: 6em; color: white;
+    font-family: Playfair; font-size: 3.5em; color: white;
     letter-spacing: .03em; white-space: nowrap;
     text-shadow: 5px 5px 10px rgba(0,0,0,0.7);
 }
@@ -217,7 +217,7 @@ button.coolBtn.small {
 #topArea > div#gameTitle {
     position: relative;
     padding: 5px 10px;
-    font-family: Suit; font-size: 1.5em; font-weight: 100;
+    font-family: Suit; font-size: 1.2em; font-weight: 100;
     text-shadow: 2px 2px 3px #333;
     color: #88dd88;
     vertical-align: top;
